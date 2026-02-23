@@ -1,0 +1,21 @@
+{
+    "timestamp": "2024-12-01T14:30:45.123456",
+    "source_directory": "/Users/analyst/test_downloads",
+    "total_files": 15,
+    "categories": {
+        "documents": 3,
+        "images": 2,
+        "archives": 2,
+        "executables": 2,
+        "videos": 1,
+        "audio": 1,
+        "other": 2
+    },
+    "organized_files": 13,
+    "errors": [
+        "Permission denied: locked_file.pdf"
+    ],
+    "warnings": [
+        "Skipped directory: subfolder"
+    ]
+}

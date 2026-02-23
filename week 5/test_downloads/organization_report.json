@@ -1,0 +1,54 @@
+{
+    "generated": "2026-02-22 08:47 PM",
+    "source_directory": "e:\\python_basics\\week 5\\test_downloads",
+    "summary": {
+        "total_files": 20,
+        "organized_files": 20,
+        "errors_count": 0,
+        "warnings_count": 0
+    },
+    "categories": [
+        {
+            "name": "DOCUMENTS",
+            "count": 4,
+            "percent": 20.0
+        },
+        {
+            "name": "IMAGES",
+            "count": 2,
+            "percent": 10.0
+        },
+        {
+            "name": "ARCHIVES",
+            "count": 2,
+            "percent": 10.0
+        },
+        {
+            "name": "EXECUTABLES",
+            "count": 3,
+            "percent": 15.0
+        },
+        {
+            "name": "VIDEOS",
+            "count": 1,
+            "percent": 5.0
+        },
+        {
+            "name": "AUDIO",
+            "count": 1,
+            "percent": 5.0
+        },
+        {
+            "name": "OTHER",
+            "count": 7,
+            "percent": 35.0
+        },
+        {
+            "name": "OTHER",
+            "count": 0,
+            "percent": 0.0
+        }
+    ],
+    "errors": [],
+    "warnings": []
+}
