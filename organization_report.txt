@@ -1,0 +1,26 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+FILE ORGANIZATION REPORT
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Generated: 2026-02-22 09:19 PM
+Source Directory: e:\python_basics\week 5\test_downloads
+
+SUMMARY
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Total Files Found: 20
+Successfully Organized: 20
+Errors: 0
+
+CATEGORIES
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+DOCUMENTS   : 4 files (20.0%)
+IMAGES      : 2 files (10.0%)
+ARCHIVES    : 2 files (10.0%)
+EXECUTABLES : 3 files (15.0%)
+VIDEOS      : 1 file (5.0%)
+AUDIO       : 1 file (5.0%)
+OTHER       : 7 files (35.0%)
+
+ERRORS & WARNINGS
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Organization complete!
