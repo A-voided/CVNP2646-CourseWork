@@ -1,14 +1,16 @@
-# CVNP2646 Course Work
+# Authentication Log Scanner
 
-This repository contains my coursework for CVNP2646 - Python Fundamentals.
+This project contains a Python script to scan authentication logs, identify failed login attempts, and generate security incident reports.
 
-**Student:** james goebel
-**Semester:** Spring 2026
-**Instructor:** Matthew Mcullough
+## Files
+- `auth_scanner.py`: Main log scanner script
+- `auth_test.log`: Sample authentication log file
+- `incident_report.json`: Generated JSON report
+- `incident_report.txt`: Generated human-readable report
 
-## About This Course
-This course teaches Python programming fundamentals with a focus on cybersecurity applications.
+## Usage
+Run the scanner with:
 
-## Repository Contents
-- Week 1: Development environment setup
-- Future weeks: Python scripts and projects
+    E:/python_basics/.venv/Scripts/python.exe "Week 6/auth_scanner.py"
+
+Reports will be generated in the same folder.

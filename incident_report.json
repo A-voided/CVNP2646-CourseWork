@@ -1,0 +1,46 @@
+{
+    "report_generated": "2026-03-01T21:48:12.214909",
+    "summary": {
+        "total_events": 19,
+        "total_success": 4,
+        "total_fail": 14,
+        "failure_rate": 73.68421052631578,
+        "parse_errors": 1
+    },
+    "top_failed_users": [
+        [
+            "admin",
+            9
+        ],
+        [
+            "root",
+            3
+        ],
+        [
+            "administrator",
+            1
+        ],
+        [
+            "test",
+            1
+        ]
+    ],
+    "top_failed_ips": [
+        [
+            "198.51.100.45",
+            9
+        ],
+        [
+            "203.0.113.89",
+            2
+        ],
+        [
+            "192.0.2.15",
+            2
+        ],
+        [
+            "198.51.100.92",
+            1
+        ]
+    ]
+}
