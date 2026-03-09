@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "created_by": "James Goebel",
+  "description": "Backup of critical security logs",
+  "mode": "DRY-RUN",
+  "plans": [
+    {
+      "name": "Security Logs Daily Backup",
+      "sources": [
+        {
+          "name": "Firewall Logs",
+          "path": "/var/log/firewall",
+          "recursive": true,
+          "include_patterns": ["*.log", "*.txt"],
+          "exclude_patterns": ["*.tmp", "debug_*"]
+        },
+        {
+          "name": "IDS Alerts",
+          "path": "/var/log/suricata",
+          "recursive": false,
+          "include_patterns": ["fast.log", "eve.json"],
+          "exclude_patterns": []
+        }
+      ],
+      "destination": {
+        "base_path": "/backup/security_logs",
+        "create_timestamped_folders": true,
+        "retention_days": 90
+      },
+      "options": {
+        "verify_backups": true,
+        "max_file_size_mb": 100
+      }
+    }
+  ]
+}

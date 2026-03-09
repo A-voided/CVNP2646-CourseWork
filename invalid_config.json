@@ -1,0 +1,28 @@
+
+
+
+[
+	{
+		"sources": ["/var/log/firewall"],
+		"destination": "/backup/security_logs"
+	},
+	{
+		"plan_name": "No Sources",
+		"destination": "/backup/security_logs"
+	},
+	{
+		"plan_name": "Sources Not List",
+		"sources": "/var/log/firewall",
+		"destination": "/backup/security_logs"
+	},
+	{
+		"plan_name": "Empty Sources",
+		"sources": [],
+		"destination": "/backup/security_logs"
+	},
+	{
+		"plan_name": "Source Missing Path",
+		"sources": [{}],
+		"destination": "/backup/security_logs"
+	}
+]

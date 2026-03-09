@@ -1,0 +1,41 @@
+              BACKUP PLAN DRY-RUN SIMULATION
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+Plan: Security Logs Daily Backup
+Version: 1.0
+Created By: James Goebel
+Mode: DRY-RUN (no files will be copied)
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+SUMMARY STATISTICS
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+Total Sources:     2
+Total Files:       25
+Total Size:        1191.8 MB
+Destination:       {'base_path': '/backup/security_logs', 'create_timestamped_folders': True, 'retention_days': 90}
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+SOURCE 1:
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+Path: {'name': 'Firewall Logs', 'path': '/var/log/firewall', 'recursive': True, 'include_patterns': ['*.log', '*.txt'], 'exclude_patterns': ['*.tmp', 'debug_*']}
+Files Found: 11
+
+Sample Files:
+  → file39.dat (86.6 MB)
+  → file88.dat (24.9 MB)
+  → file49.dat (55.0 MB)
+  ... and 8 more files
+
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+SOURCE 2:
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+Path: {'name': 'IDS Alerts', 'path': '/var/log/suricata', 'recursive': False, 'include_patterns': ['fast.log', 'eve.json'], 'exclude_patterns': []}
+Files Found: 14
+
+Sample Files:
+  → file1.dat (80.7 MB)
+  → file92.dat (90.0 MB)
+  → file62.dat (14.4 MB)
+  ... and 11 more files
+
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+This was a Dry-Run simulation. No files were copied or modified.
+To execute actual backup, run with --execute flag.
++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+

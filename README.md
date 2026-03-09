@@ -1,16 +1,15 @@
-# Authentication Log Scanner
+README
+How to Run
+-------------
+Open console and run: python backup_planner.py backup_config.json
 
-This project contains a Python script to scan authentication logs, identify failed login attempts, and generate security incident reports.
+Structure
+-------------
+I chose my JSON structure for ease of use and kept it easily modifiable.
 
-## Files
-- `auth_scanner.py`: Main log scanner script
-- `auth_test.log`: Sample authentication log file
-- `incident_report.json`: Generated JSON report
-- `incident_report.txt`: Generated human-readable report
-
-## Usage
-Run the scanner with:
-
-    E:/python_basics/.venv/Scripts/python.exe "Week 6/auth_scanner.py"
-
-Reports will be generated in the same folder.
+Validation Levels
+-------------------
+Top-level: Checks if the config is a dictionary and checks for load errors.
+Plans list validation: Ensures there's a "plans" key and verifies it's a list.
+Plan validation: Checks each plan for the required name, sources, and destination fields.
+Per-source validation: Checks for a path and ensures it's not empty.
