@@ -1,0 +1,152 @@
+Patch Management Summary Report
+Date: 2026-03-29
+
+High-Risk Hosts Identified: 20
+Average Risk Score: 56
+
+------------------------------------------------------------
+Host: WEB-SRV-001
+  - Operating System: Ubuntu 22.04 LTS
+  - Risk Score: 60 (High)
+  - Days Since Last Patch: 706
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: WEB-SRV-002
+  - Operating System: Ubuntu 22.04 LTS
+  - Risk Score: 60 (High)
+  - Days Since Last Patch: 545
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: DB-SRV-001
+  - Operating System: Ubuntu 22.04 LTS
+  - Risk Score: 60 (High)
+  - Days Since Last Patch: 619
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: SEC-SRV-001
+  - Operating System: Ubuntu 22.04 LTS
+  - Risk Score: 60 (High)
+  - Days Since Last Patch: 421
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: IT-SRV-DC01
+  - Operating System: Windows Server 2022
+  - Risk Score: 60 (High)
+  - Days Since Last Patch: 684
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: FIN-WKS-001
+  - Operating System: Windows 11 Pro
+  - Risk Score: 57 (High)
+  - Days Since Last Patch: 591
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: FIN-WKS-002
+  - Operating System: Windows 11 Pro
+  - Risk Score: 57 (High)
+  - Days Since Last Patch: 494
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: DB-SRV-002
+  - Operating System: Windows Server 2022
+  - Risk Score: 57 (High)
+  - Days Since Last Patch: 425
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: IT-SRV-DC02
+  - Operating System: Windows Server 2022
+  - Risk Score: 57 (High)
+  - Days Since Last Patch: 443
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: STG-WEB-001
+  - Operating System: Ubuntu 22.04 LTS
+  - Risk Score: 57 (High)
+  - Days Since Last Patch: 530
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: MON-SRV-001
+  - Operating System: Windows Server 2022
+  - Risk Score: 57 (High)
+  - Days Since Last Patch: 525
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: HR-WKS-001
+  - Operating System: Windows 11 Pro
+  - Risk Score: 53 (High)
+  - Days Since Last Patch: 448
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: HR-WKS-002
+  - Operating System: Windows 11 Pro
+  - Risk Score: 53 (High)
+  - Days Since Last Patch: 657
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: STG-DB-001
+  - Operating System: Ubuntu 22.04 LTS
+  - Risk Score: 53 (High)
+  - Days Since Last Patch: 483
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: STG-APP-001
+  - Operating System: CentOS 7
+  - Risk Score: 53 (High)
+  - Days Since Last Patch: 739
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: DEV-SRV-001
+  - Operating System: Ubuntu 22.04 LTS
+  - Risk Score: 53 (High)
+  - Days Since Last Patch: 605
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: DEV-SRV-002
+  - Operating System: Ubuntu 22.04 LTS
+  - Risk Score: 53 (High)
+  - Days Since Last Patch: 438
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: STG-APP-002
+  - Operating System: CentOS 7
+  - Risk Score: 50 (High)
+  - Days Since Last Patch: 428
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: DEV-WKS-001
+  - Operating System: macOS 14
+  - Risk Score: 50 (High)
+  - Days Since Last Patch: 417
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+Host: DEV-WKS-002
+  - Operating System: macOS 14
+  - Risk Score: 50 (High)
+  - Days Since Last Patch: 484
+  - Missing Patches: None
+  - Recommendation: Patch immediately (overdue per CIS Control 7).
+
+------------------------------------------------------------
+Key:
+- 'Risk Score' is on a 0-100 scale (Critical: 70+, High: 50-69, Medium: 25-49, Low: <25).
+- 'Days Since Last Patch' shows how long the system has gone without updates.
+- 'Recommendation' is based on CIS Control 7 patch timelines.
