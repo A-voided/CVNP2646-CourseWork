@@ -1,0 +1,20 @@
+[
+  {"user_id": "U001", "role": "admin", "assigned_date": "2024-01-15"},
+  {"user_id": "U002", "role": "hr_manager", "assigned_date": "2023-06-01"},
+  {"user_id": "U002", "role": "admin", "assigned_date": "2023-08-20"},
+  {"user_id": "U003", "role": "it_support", "assigned_date": "2024-02-10"},
+  {"user_id": "U004", "role": "security_analyst", "assigned_date": "2024-03-05"},
+  {"user_id": "U005", "role": "finance_analyst", "assigned_date": "2024-01-25"},
+  {"user_id": "U006", "role": "marketing_specialist", "assigned_date": "2024-02-15"},
+  {"user_id": "U007", "role": "it_manager", "assigned_date": "2023-12-01"},
+  {"user_id": "U008", "role": "security_manager", "assigned_date": "2024-01-10"},
+  {"user_id": "U009", "role": "finance_manager", "assigned_date": "2023-11-20"},
+  {"user_id": "U010", "role": "hr_specialist", "assigned_date": "2024-02-28"},
+  {"user_id": "U011", "role": "marketing_manager", "assigned_date": "2024-03-01"},
+  {"user_id": "U012", "role": "it_support", "assigned_date": "2024-03-10"},
+  {"user_id": "U013", "role": "security_analyst", "assigned_date": "2024-03-12"},
+  {"user_id": "U014", "role": "finance_analyst", "assigned_date": "2024-03-15"},
+  {"user_id": "U015", "role": "marketing_specialist", "assigned_date": "2024-03-18"},
+  {"user_id": "U001", "role": "security_analyst", "assigned_date": "2024-03-20"},
+  {"user_id": "U005", "role": "admin", "assigned_date": "2024-03-22"}
+]

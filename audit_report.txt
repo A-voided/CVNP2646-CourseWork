@@ -1,0 +1,58 @@
+================================================================================
+USER ACCOUNT & PERMISSIONS REPORT
+
+Generated: 2026-04-06 13:34:49
+Auditor: IAM Audit Reporter v1.9102
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total Users Audited: 15
+Total Role Assignments: 18
+Total Violations Found: 5
+
+VIOLATIONS BY SEVERITY
+=+++++++=======+++=======++++==++++===+++===+++===++++==
+CRITICAL     [ 2   ] ████████████
+HIGH         [ 2   ] ████████████
+MEDIUM       [ 1   ] ██████░░░░░░
+LOW          [ 0   ] ░░░░░░░░░░░░
+
+VIOLATIONS BY TYPE
+-=-=-=-=-==-=-=-=-=-=-=-==-=-=-=-=-=-=-==-=-=--=-=--=-=
+disabled_with_roles            [ 2   ] ████████████
+unauthorized_admin             [ 2   ] ████████████
+stale_account                  [ 1   ] ██████░░░░░░
+
+DETAILED VIOLATIONS
+============================
+
+CRITICAL SEVERITY (2)
+...............................................................................................
+1. User: asmith (ID: U002)
+   Type: disabled_with_roles
+   Details: Disabled account has 2 active role(s): hr_manager, admin
+
+2. User: hlee (ID: U009)
+   Type: disabled_with_roles
+   Details: Disabled account has 1 active role(s): finance_manager
+
+
+HIGH SEVERITY (2)
+...............................................................................................
+1. User: asmith (ID: U002)
+   Type: unauthorized_admin
+   Details: Admin role assigned to unauthorized department: HR, Role: admin
+
+2. User: dpatel (ID: U005)
+   Type: unauthorized_admin
+   Details: Admin role assigned to unauthorized department: Finance, Role: admin
+
+
+MEDIUM SEVERITY (1)
+...............................................................................................
+1. User: jdoe (ID: U001)
+   Type: stale_account
+   Details: Last login: 2024-11-28, Days stale: 494
+
+============================
+END OF REPORT

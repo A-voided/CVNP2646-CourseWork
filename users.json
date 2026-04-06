@@ -1,0 +1,17 @@
+[
+  {"user_id": "U001", "username": "jdoe", "status": "active", "department": "IT", "last_login": "2024-11-28"},
+  {"user_id": "U002", "username": "asmith", "status": "disabled", "department": "HR", "last_login": "2024-08-15"},
+  {"user_id": "U003", "username": "bwilson", "status": "active", "department": "IT", "last_login": "2026-03-30"},
+  {"user_id": "U004", "username": "cnguyen", "status": "active", "department": "Security", "last_login": "2026-04-01"},
+  {"user_id": "U005", "username": "dpatel", "status": "active", "department": "Finance", "last_login": "2026-03-25"},
+  {"user_id": "U006", "username": "emartin", "status": "active", "department": "Marketing", "last_login": "2026-03-29"},
+  {"user_id": "U007", "username": "flee", "status": "active", "department": "IT", "last_login": "2026-03-28"},
+  {"user_id": "U008", "username": "gking", "status": "active", "department": "Security", "last_login": "2026-03-27"},
+  {"user_id": "U009", "username": "hlee", "status": "disabled", "department": "Finance", "last_login": "2026-03-15"},
+  {"user_id": "U010", "username": "imorris", "status": "active", "department": "HR", "last_login": "2026-03-20"},
+  {"user_id": "U011", "username": "jyoung", "status": "active", "department": "Marketing", "last_login": "2026-03-22"},
+  {"user_id": "U012", "username": "kwhite", "status": "active", "department": "IT", "last_login": "2026-03-18"},
+  {"user_id": "U013", "username": "lroberts", "status": "active", "department": "Security", "last_login": "2026-03-17"},
+  {"user_id": "U014", "username": "mclark", "status": "active", "department": "Finance", "last_login": "2026-03-16"},
+  {"user_id": "U015", "username": "nturner", "status": "active", "department": "Marketing", "last_login": "2026-03-15"}
+]

@@ -1,0 +1,66 @@
+{
+  "audit_metadata": {
+    "timestamp": "2026-04-06T13:34:49",
+    "total_users_audited": 15,
+    "total_role_assignments": 18,
+    "total_violations": 5,
+    "auditor": "IAM Audit System v1.0"
+  },
+  "violation_summary": {
+    "by_severity": {
+      "CRITICAL": 2,
+      "HIGH": 2,
+      "MEDIUM": 1
+    },
+    "by_type": {
+      "disabled_with_roles": 2,
+      "unauthorized_admin": 2,
+      "stale_account": 1
+    }
+  },
+  "all_violations": [
+    {
+      "user_id": "U002",
+      "username": "asmith",
+      "roles": [
+        "hr_manager",
+        "admin"
+      ],
+      "severity": "CRITICAL",
+      "type": "disabled_with_roles"
+    },
+    {
+      "user_id": "U009",
+      "username": "hlee",
+      "roles": [
+        "finance_manager"
+      ],
+      "severity": "CRITICAL",
+      "type": "disabled_with_roles"
+    },
+    {
+      "user_id": "U002",
+      "username": "asmith",
+      "department": "HR",
+      "role": "admin",
+      "severity": "HIGH",
+      "type": "unauthorized_admin"
+    },
+    {
+      "user_id": "U005",
+      "username": "dpatel",
+      "department": "Finance",
+      "role": "admin",
+      "severity": "HIGH",
+      "type": "unauthorized_admin"
+    },
+    {
+      "user_id": "U001",
+      "username": "jdoe",
+      "last_login": "2024-11-28",
+      "days_stale": 494,
+      "severity": "MEDIUM",
+      "type": "stale_account"
+    }
+  ]
+}
