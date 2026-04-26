@@ -1,0 +1,23 @@
+[
+  {
+    "asset_id": "SRV-001",
+    "hostname": "web-server-1",
+    "ip": "192.168.1.10",
+    "software": ["nginx", "openssl"],
+    "criticality": "high"
+  },
+  {
+    "asset_id": "SRV-002",
+    "hostname": "db-server-1",
+    "ip": "192.168.1.20",
+    "software": ["mysql", "openssl"],
+    "criticality": "critical"
+  },
+  {
+    "asset_id": "WS-001",
+    "hostname": "workstation-1",
+    "ip": "192.168.1.101",
+    "software": ["chrome", "office"],
+    "criticality": "medium"
+  }
+]

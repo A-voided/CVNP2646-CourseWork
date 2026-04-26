@@ -1,0 +1,42 @@
+[
+  {
+    "asset_id": "SRV-002",
+    "hostname": "db-server-1",
+    "cve_id": "CVE-2024-34567",
+    "description": "MySQL privilege escalation vulnerability.",
+    "cvss_score": 8.2,
+    "criticality": "critical",
+    "exploited": true,
+    "risk_score": 32.8
+  },
+  {
+    "asset_id": "SRV-001",
+    "hostname": "web-server-1",
+    "cve_id": "CVE-2024-12345",
+    "description": "Buffer overflow in nginx allows remote attackers to execute arbitrary code.",
+    "cvss_score": 9.8,
+    "criticality": "high",
+    "exploited": true,
+    "risk_score": 29.4
+  },
+  {
+    "asset_id": "SRV-002",
+    "hostname": "db-server-1",
+    "cve_id": "CVE-2024-23456",
+    "description": "Vulnerability in OpenSSL allows information disclosure.",
+    "cvss_score": 7.5,
+    "criticality": "critical",
+    "exploited": false,
+    "risk_score": 15.0
+  },
+  {
+    "asset_id": "SRV-001",
+    "hostname": "web-server-1",
+    "cve_id": "CVE-2024-23456",
+    "description": "Vulnerability in OpenSSL allows information disclosure.",
+    "cvss_score": 7.5,
+    "criticality": "high",
+    "exploited": false,
+    "risk_score": 11.25
+  }
+]

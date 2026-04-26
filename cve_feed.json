@@ -1,0 +1,23 @@
+[
+  {
+    "cve_id": "CVE-2024-12345",
+    "description": "Buffer overflow in nginx allows remote attackers to execute arbitrary code.",
+    "cvss_score": 9.8,
+    "affected_software": ["nginx"],
+    "published_date": "2024-03-10"
+  },
+  {
+    "cve_id": "CVE-2024-23456",
+    "description": "Vulnerability in OpenSSL allows information disclosure.",
+    "cvss_score": 7.5,
+    "affected_software": ["openssl"],
+    "published_date": "2024-02-15"
+  },
+  {
+    "cve_id": "CVE-2024-34567",
+    "description": "MySQL privilege escalation vulnerability.",
+    "cvss_score": 8.2,
+    "affected_software": ["mysql"],
+    "published_date": "2024-01-20"
+  }
+]

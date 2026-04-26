@@ -1,0 +1,26 @@
+what works and whats missing i successfully have it parsing and generating
+a successful output file with proper structure i plan on making
+the structure and acutal over all more digestable output file 
+and i need to implement a management output because there isnt
+one right now i also wanna maybe add a additon to the output.
+besides that i wanna bigger test sample i just wasnt really getting
+the best test file generating but ill mess with it more import os is stagnat may implement 
+
+CHANGES
+i need to add a manager file ouput and i wanna add a output option 
+for more detailed descriptions of what the exploit is and what to 
+check for if it was exploited not just the cve. also would like to 
+try to find another way to diversafiy it im just still thinking of 
+useful for this project specifically thats why im adding the more
+detailed disc on the vuls and overall cleaner structure compared to
+what ive done see if i can make it nice and clean compact but readable 
+with detail for ease of servicing 
+
+AI USAGE 
+this week i used it to help pull old code structure over for me to change 
+to accomdate and mesh with how this project is gonna function aswell as 
+took a few change recommendation to consolodate the code a bit more 
+i plan on using it to generate better test data in the coming week i 
+just didnt get around to trying it this week i wanted to see if the 
+simple data would go first sense i had it.
+
