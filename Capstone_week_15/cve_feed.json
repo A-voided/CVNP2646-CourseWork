@@ -1,0 +1,58 @@
+[
+  {
+    "cve_id": "CVE-2024-12345",
+    "description": "Buffer overflow in nginx allows remote attackers to execute arbitrary code.",
+    "cvss_score": 9.8,
+    "affected_software": ["nginx"],
+    "published_date": "2024-03-10"
+  },
+  {
+    "cve_id": "CVE-2024-23456",
+    "description": "Vulnerability in OpenSSL allows information disclosure.",
+    "cvss_score": 7.5,
+    "affected_software": ["openssl"],
+    "published_date": "2024-02-15"
+  },
+  {
+    "cve_id": "CVE-2024-34567",
+    "description": "MySQL privilege escalation vulnerability.",
+    "cvss_score": 8.2,
+    "affected_software": ["mysql"],
+    "published_date": "2024-01-20"
+  },
+  {
+    "cve_id": "CVE-2024-45678",
+    "description": "Remote code execution in rsync.",
+    "cvss_score": 9.0,
+    "affected_software": ["rsync"],
+    "published_date": "2024-04-01"
+  },
+  {
+    "cve_id": "CVE-2024-56789",
+    "description": "Privilege escalation in postfix.",
+    "cvss_score": 8.5,
+    "affected_software": ["postfix"],
+    "published_date": "2024-04-05"
+  },
+  {
+    "cve_id": "CVE-2024-67890",
+    "description": "Vulnerability in VLC media player.",
+    "cvss_score": 7.0,
+    "affected_software": ["vlc"],
+    "published_date": "2024-04-10"
+  },
+  {
+    "cve_id": "CVE-2024-78901",
+    "description": "Remote code execution in Tomcat.",
+    "cvss_score": 9.3,
+    "affected_software": ["tomcat"],
+    "published_date": "2024-04-15"
+  },
+  {
+    "cve_id": "CVE-2024-89012",
+    "description": "Java deserialization vulnerability.",
+    "cvss_score": 8.8,
+    "affected_software": ["java"],
+    "published_date": "2024-04-20"
+  }
+]

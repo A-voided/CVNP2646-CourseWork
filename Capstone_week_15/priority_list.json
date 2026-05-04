@@ -1,0 +1,122 @@
+[
+  {
+    "asset_id": "SRV-002",
+    "hostname": "db-server-1",
+    "cve_id": "CVE-2024-34567",
+    "description": "MySQL privilege escalation vulnerability.",
+    "cvss_score": 8.2,
+    "criticality": "critical",
+    "exploited": true,
+    "risk_score": 32.8
+  },
+  {
+    "asset_id": "SRV-001",
+    "hostname": "web-server-1",
+    "cve_id": "CVE-2024-12345",
+    "description": "Buffer overflow in nginx allows remote attackers to execute arbitrary code.",
+    "cvss_score": 9.8,
+    "criticality": "high",
+    "exploited": true,
+    "risk_score": 29.4
+  },
+  {
+    "asset_id": "SRV-005",
+    "hostname": "app-server-1",
+    "cve_id": "CVE-2024-78901",
+    "description": "Remote code execution in Tomcat.",
+    "cvss_score": 9.3,
+    "criticality": "critical",
+    "exploited": false,
+    "risk_score": 18.6
+  },
+  {
+    "asset_id": "SRV-005",
+    "hostname": "app-server-1",
+    "cve_id": "CVE-2024-89012",
+    "description": "Java deserialization vulnerability.",
+    "cvss_score": 8.8,
+    "criticality": "critical",
+    "exploited": false,
+    "risk_score": 17.6
+  },
+  {
+    "asset_id": "SRV-002",
+    "hostname": "db-server-1",
+    "cve_id": "CVE-2024-23456",
+    "description": "Vulnerability in OpenSSL allows information disclosure.",
+    "cvss_score": 7.5,
+    "criticality": "critical",
+    "exploited": false,
+    "risk_score": 15.0
+  },
+  {
+    "asset_id": "SRV-005",
+    "hostname": "app-server-1",
+    "cve_id": "CVE-2024-23456",
+    "description": "Vulnerability in OpenSSL allows information disclosure.",
+    "cvss_score": 7.5,
+    "criticality": "critical",
+    "exploited": false,
+    "risk_score": 15.0
+  },
+  {
+    "asset_id": "SRV-003",
+    "hostname": "backup-server-1",
+    "cve_id": "CVE-2024-45678",
+    "description": "Remote code execution in rsync.",
+    "cvss_score": 9.0,
+    "criticality": "high",
+    "exploited": false,
+    "risk_score": 13.5
+  },
+  {
+    "asset_id": "SRV-004",
+    "hostname": "mail-server-1",
+    "cve_id": "CVE-2024-56789",
+    "description": "Privilege escalation in postfix.",
+    "cvss_score": 8.5,
+    "criticality": "high",
+    "exploited": false,
+    "risk_score": 12.75
+  },
+  {
+    "asset_id": "SRV-001",
+    "hostname": "web-server-1",
+    "cve_id": "CVE-2024-23456",
+    "description": "Vulnerability in OpenSSL allows information disclosure.",
+    "cvss_score": 7.5,
+    "criticality": "high",
+    "exploited": false,
+    "risk_score": 11.25
+  },
+  {
+    "asset_id": "SRV-003",
+    "hostname": "backup-server-1",
+    "cve_id": "CVE-2024-23456",
+    "description": "Vulnerability in OpenSSL allows information disclosure.",
+    "cvss_score": 7.5,
+    "criticality": "high",
+    "exploited": false,
+    "risk_score": 11.25
+  },
+  {
+    "asset_id": "SRV-004",
+    "hostname": "mail-server-1",
+    "cve_id": "CVE-2024-23456",
+    "description": "Vulnerability in OpenSSL allows information disclosure.",
+    "cvss_score": 7.5,
+    "criticality": "high",
+    "exploited": false,
+    "risk_score": 11.25
+  },
+  {
+    "asset_id": "WS-002",
+    "hostname": "workstation-2",
+    "cve_id": "CVE-2024-67890",
+    "description": "Vulnerability in VLC media player.",
+    "cvss_score": 7.0,
+    "criticality": "low",
+    "exploited": false,
+    "risk_score": 3.5
+  }
+]

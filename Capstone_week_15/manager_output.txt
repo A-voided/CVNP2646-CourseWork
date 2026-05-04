@@ -1,0 +1,55 @@
+MANAGEMENT SUMMARY REPORT
+========================
+
+Total unique CVEs found: 8
+Total affected assets: 6
+
+Top Risks (by priority):
+1. Asset: db-server-1 (Criticality: critical)
+   CVE: CVE-2024-34567 | Score: 8.2 | Exploited: True
+   Description: MySQL privilege escalation vulnerability.
+   Calculated Risk Score: 32.8
+   [!] This CVE is actively exploited in the wild. Immediate attention is required.
+       What to look for: Signs of compromise, unusual activity, or known attack patterns related to this CVE.
+   Purpose of CVE: MySQL privilege escalation vulnerability
+   Impact: This vulnerability affects the software: MySQL, privilege, escalation, vulnerability.
+
+2. Asset: web-server-1 (Criticality: high)
+   CVE: CVE-2024-12345 | Score: 9.8 | Exploited: True
+   Description: Buffer overflow in nginx allows remote attackers to execute arbitrary code.
+   Calculated Risk Score: 29.4
+   [!] This CVE is actively exploited in the wild. Immediate attention is required.
+       What to look for: Signs of compromise, unusual activity, or known attack patterns related to this CVE.
+   Purpose of CVE: Buffer overflow in nginx allows remote attackers to execute arbitrary code
+   Impact: This vulnerability affects the software: Buffer, overflow, in, nginx, allows, remote, attackers, to, execute, arbitrary, code.
+
+3. Asset: app-server-1 (Criticality: critical)
+   CVE: CVE-2024-78901 | Score: 9.3 | Exploited: False
+   Description: Remote code execution in Tomcat.
+   Calculated Risk Score: 18.6
+   Purpose of CVE: Remote code execution in Tomcat
+   Impact: This vulnerability affects the software: Remote, code, execution, in, Tomcat.
+
+4. Asset: app-server-1 (Criticality: critical)
+   CVE: CVE-2024-89012 | Score: 8.8 | Exploited: False
+   Description: Java deserialization vulnerability.
+   Calculated Risk Score: 17.6
+   Purpose of CVE: Java deserialization vulnerability
+   Impact: This vulnerability affects the software: Java, deserialization, vulnerability.
+
+5. Asset: db-server-1 (Criticality: critical)
+   CVE: CVE-2024-23456 | Score: 7.5 | Exploited: False
+   Description: Vulnerability in OpenSSL allows information disclosure.
+   Calculated Risk Score: 15.0
+   Purpose of CVE: Vulnerability in OpenSSL allows information disclosure
+   Impact: This vulnerability affects the software: Vulnerability, in, OpenSSL, allows, information, disclosure.
+
+
+What to look for in this report:
+- Focus on assets with high or critical criticality and high risk scores.
+- Pay special attention to CVEs marked as 'Exploited'—these are being used by attackers right now.
+- For each exploited CVE, review your systems for signs of compromise and apply patches or mitigations immediately.
+- Review the CVE description for business impact and urgency.
+
+Explanation:
+This report summarizes the most urgent vulnerabilities in your environment. Each item is prioritized by risk, considering asset importance, CVSS score, and whether the vulnerability is actively exploited. Addressing these items first will reduce your organization's exposure to the most significant threats.
