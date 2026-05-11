@@ -19,5 +19,40 @@
     "ip": "192.168.1.101",
     "software": ["chrome", "office"],
     "criticality": "medium"
+  },
+  {
+    "asset_id": "SRV-003",
+    "hostname": "backup-server-1",
+    "ip": "192.168.1.30",
+    "software": ["rsync", "openssl"],
+    "criticality": "high"
+  },
+  {
+    "asset_id": "SRV-004",
+    "hostname": "mail-server-1",
+    "ip": "192.168.1.40",
+    "software": ["postfix", "openssl"],
+    "criticality": "high"
+  },
+  {
+    "asset_id": "WS-002",
+    "hostname": "workstation-2",
+    "ip": "192.168.1.102",
+    "software": ["chrome", "office", "vlc"],
+    "criticality": "low"
+  },
+  {
+    "asset_id": "WS-003",
+    "hostname": "workstation-3",
+    "ip": "192.168.1.103",
+    "software": ["firefox", "office"],
+    "criticality": "medium"
+  },
+  {
+    "asset_id": "SRV-005",
+    "hostname": "app-server-1",
+    "ip": "192.168.1.50",
+    "software": ["tomcat", "java", "openssl"],
+    "criticality": "critical"
   }
 ]

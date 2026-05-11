@@ -1,43 +1,44 @@
+
 # AI_USAGE.md
 
 ## Use of AI Assistance in This Project
 
-This project was developed with the assistance of GitHub Copilot (AI programming assistant, powered by GPT-4.1). The AI was used in the following ways:
+This project was developed with the assistance of GitHub Copilot (AI programming assistant, powered by GPT-4.1). AI was used throughout the full lifecycle of the vulnerability prioritizer project, including:
 
-- **Project Planning & Structure:**
-	- Outlined the overall architecture and file/module structure for the vulnerability prioritizer.
-	- Suggested input and output file formats and naming conventions.
+- **Project Planning & Architecture:**
+	- Outlined the project’s goals, requirements, and deliverables.
+	- Designed the overall structure, file/module layout, and workflow for the tool.
+	- Proposed input/output file formats and naming conventions.
 
-- **Code Generation:**
-	- Generated the initial MVP script, including class definitions (`Asset`, `CVE`, `VulnerabilityMatch`).
-	- Provided code for argument parsing, JSON file reading/writing, and error handling.
-	- Implemented the risk scoring algorithm and asset–CVE matching logic.
-	- Added logging and diagnostics for easier debugging and transparency.
+- **Implementation & Refactoring:**
+	- Generated initial MVP code, then iteratively improved error handling, input validation, and logging.
+	- Modularized code, clarified class/function responsibilities, and centralized helper functions.
+	- Automated output file management and directory structure for production readiness.
 
-- **Testing & Documentation Guidance:**
-	- Suggested testing strategies (unit, integration, edge case testing).
-	- Provided sample data file formats and output examples.
+- **Testing & Data Generation:**
+	- Created and expanded the test suite to cover core logic, edge cases, and input validation.
+	- Added an integration test for end-to-end pipeline validation.
+	- Provided realistic, comprehensive sample data for input files.
 
-- **Iterative Support:**
-	- Answered questions about algorithms, logic, and best practices.
-	- Explained code structure and class usage for better understanding.
-	- Offered advice on expanding the MVP into a more advanced tool.
+- **Documentation & Usability:**
+	- Drafted and refined the README to ensure a new user could run and test the project from scratch.
+	- Added clear instructions for setup, running, and testing, and updated project structure documentation.
 
-All code and documentation were reviewed and approved by the project author. The AI was used as a productivity and learning tool, not as a replacement for human judgment or final review.
+- **Management Reporting:**
+	- Developed the management summary output (manager_output.txt) with actionable, plain-language explanations for non-technical audiences.
+	- Ensured outputs were accessible and clearly separated for technical and management users.
+
+All code, tests, and documentation were reviewed and approved by the project author. AI was used as a productivity and learning tool, not as a replacement for human judgment or final review.
 
 ## User Approval and Decision-Making
 
-- The user actively reviewed all AI-generated suggestions and code.
+- The user actively reviewed, tested, and approved all AI-generated suggestions and code.
 - Approved:
-	- The overall file/module structure and naming conventions.
-	- The use of classes (`Asset`, `CVE`, `VulnerabilityMatch`) for code organization.
-	- The risk scoring formula and logic for matching vulnerabilities to assets.
-	- The approach to argument parsing, error handling, and logging.
-	- The MVP script’s end-to-end workflow and output format.
-- Denied or Modified:
-	- Deferred or skipped advanced features (e.g., patch planning, management reports) for the MVP phase.
-	- Chose not to implement a user interface or automation at this stage.
-	- Requested explanations and examples before accepting class-based designs.
-	- Opted for a simple, clear MVP rather than a complex or feature-rich tool initially.
+	- The approach to argument parsing, error handling, logging, and management summary output.
+	- The structure and content of the README, test suite, and outputs organization.
+- Modified or Extended:
+	- Expanded test data and management summary based on user feedback.
+	- Ensured all outputs and instructions matched real project usage and directory structure.
+	- Verified all documentation for accuracy, clarity, and completeness.
 
-The user’s feedback and decisions directly shaped the final implementation, ensuring the project met their goals and understanding at every step.
+The user’s feedback and decisions directly shaped the final implementation, ensuring the project met their goals and understanding at every step. This transparent documentation of AI involvement supports academic, professional, and ethical standards for project development.
